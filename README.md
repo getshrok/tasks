@@ -2,9 +2,9 @@
 
 Ask your Shrok to install a task template by name (mention this repo explicitly for best results), or place one of the task template folders above into ~/.shrok/workspace/tasks. Then edit it to suit your needs
 
-## Available skills
+## Available task templates
 
-| Skill | Description |
+| Task Template | Description |
 |-------|-------------|
 | morning-briefing | Daily briefing (scheduled — calendar, priorities, context) |
 
