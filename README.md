@@ -1,4 +1,4 @@
-<h1><img src="logo.svg" width="32" height="32" /> Skills for Shrok</h1>
+<h1><img src="logo.svg" width="32" height="32" /> Task templates for Shrok</h1>
 
 Ask your Shrok to install a task template by name (mention this repo explicitly for best results), or place one of the task template folders above into ~/.shrok/workspace/tasks. Then edit it to suit your needs
 
