@@ -8,10 +8,12 @@ Remind the user about upcoming birthdays so they never forget to reach out. This
 
 ## Where the data lives
 
-Read `MEMORY.md` in this task directory. It contains:
+All data lives in `MEMORY.md` in this task directory. It has two sections:
 
-- **Birthdays** — a list of people with their birthday as `MM-DD` (the year is optional and only used to mention age).
-- **Notification log** — a record of what you have already sent this year, so the same reminder is never sent twice.
+- **Birthdays** — a list of people, one per line, as `- Name — MM-DD` (append ` (YYYY)` if the birth year is known and you want to mention age).
+- **Notification log** — a record of what you have already sent this year, so the same reminder is never sent twice. Format: `- Name — YYYY — one-month` or `- Name — YYYY — day-of`.
+
+**If `MEMORY.md` does not exist yet** (fresh install), treat the birthday list as empty and send nothing. Create `MEMORY.md` with those two sections the first time the user asks to add a birthday (or the first time you need to write a log entry). Adding a birthday is just appending a line to the Birthdays section.
 
 ## What to do on each run
 
